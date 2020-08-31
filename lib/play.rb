@@ -39,7 +39,7 @@ end
 def play(board)
 board_spot = 0
 until board_spot == 9
-  spot += 1
+  board_spot += 1
   turn(board)
 end
 end
